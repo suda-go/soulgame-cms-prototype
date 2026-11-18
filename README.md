@@ -2,6 +2,8 @@
 
 可点击的后台原型（纯 HTML + CSS + JS，不用构建），用浏览器直接打开 `index.html`。
 
+在线体验：https://suda-go.github.io/soulgame-cms-prototype/
+
 - 依据：[Soulgame V7 CMS 运营后台规划](https://mi.feishu.cn/docx/KvhcdugPro47OLxL1OQc0OTtn3d)
 - app 原型：https://suda-go.github.io/play-zone-prototype-v7/
 
