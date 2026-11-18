@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Soulgame CMS · 运营后台原型</title>
+  <link rel="icon" href="assets/img/brand/app-icon.png">
+  <link rel="stylesheet" href="css/cms.css">
+</head>
+<body>
+  <!-- 局内表情团子的渐变（和 app 原型同一份） -->
+  <svg class="svg-defs" width="0" height="0" aria-hidden="true" focusable="false"><defs>
+    <linearGradient id="blobg" x1="16" y1="6" x2="50" y2="62" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#62a0ff"/><stop offset=".5" stop-color="#2f67e6"/><stop offset="1" stop-color="#0b2fae"/>
+    </linearGradient>
+  </defs></svg>
+  <div class="shell">
+    <aside class="side" id="side"></aside>
+    <div class="main">
+      <header class="top" id="top"></header>
+      <main class="content" id="content"></main>
+    </div>
+  </div>
+  <div id="layer"></div>
+
+  <script src="js/emoji.js"></script>
+  <script src="js/data.js"></script>
+  <script src="js/seed-config.js"></script>
+  <script src="js/seed-data.js"></script>
+  <script src="js/seed-scenarios.js"></script>
+  <script src="js/store.js"></script>
+  <script src="js/ui.js"></script>
+  <script src="js/app.js"></script>
+  <script src="js/schemas.js"></script>
+  <script src="js/pages/form.js"></script>
+  <script src="js/pages/editors-a.js"></script>
+  <script src="js/pages/editors-b.js"></script>
+  <script src="js/pages/config.js"></script>
+  <script src="js/pages/users.js"></script>
+  <script src="js/pages/safety.js"></script>
+  <script src="js/pages/funds.js"></script>
+  <script src="js/pages/admin.js"></script>
+  <script src="js/pages/home.js"></script>
+  <script>App.start();</script>
+</body>
+</html>
